@@ -1,0 +1,115 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url(money.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    box-sizing: border-box;
+}
+
+.heading-section, .form-section, .expenses-list {
+    width: 100%;
+    background: rgba(244, 237, 206, 0.9);
+    padding: 20px;
+    border: 2px solid #6e521c;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.heading-section h1 {
+    color: #2c1c08;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.input-section h2 {
+    color: #2c1c08;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-section label {
+    margin-top: 10px;
+    color: #333;
+    font-weight: bold;
+}
+
+.input-section input,
+.input-section select {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+#add_btn {
+    background-color: #6e521c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#add_btn:hover {
+    background-color: #8f7337;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.expenses-list h2 {
+    color: #2c1c08;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #6e521c;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #6e521c;
+    color: white;
+}
+
+tfoot td {
+    font-weight: bold;
+    color: #6e521c;
+    text-align: right;
+}
